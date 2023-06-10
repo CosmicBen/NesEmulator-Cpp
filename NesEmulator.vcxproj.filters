@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Hardware">
+      <UniqueIdentifier>{b714f215-5377-4ba3-aee3-4999edc6d33b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Sound">
+      <UniqueIdentifier>{ad8d2bdd-ee50-488c-a4bf-78c28a49aa4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine">
+      <UniqueIdentifier>{a5e09373-97c3-4587-9ba9-fc3a6e2649a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Mapper">
+      <UniqueIdentifier>{d81ae09e-f014-41e1-83ae-cfb1670868fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mapper">
+      <UniqueIdentifier>{df0a7476-cb98-43ce-ba36-e3d416df5a59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Hardware">
+      <UniqueIdentifier>{bf25676a-512e-4d49-a09a-735e65571ab4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include/Mapper/Mapper.h">
+      <Filter>Header Files\Mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Include/Mapper/Mapper_000.h">
+      <Filter>Header Files\Mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Include/Mapper/Mapper_001.h">
+      <Filter>Header Files\Mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Include/Mapper/Mapper_002.h">
+      <Filter>Header Files\Mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Include/Mapper/Mapper_003.h">
+      <Filter>Header Files\Mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Include/Mapper/Mapper_004.h">
+      <Filter>Header Files\Mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Include/Mapper/Mapper_066.h">
+      <Filter>Header Files\Mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Include/Hardware/Olc2A03.h">
+      <Filter>Header Files\Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="Include/Hardware/Olc2C02.h">
+      <Filter>Header Files\Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="Include/Hardware/Olc6502.h">
+      <Filter>Header Files\Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="Include/Hardware/Bus.h">
+      <Filter>Header Files\Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="Include/Hardware/Cartridge.h">
+      <Filter>Header Files\Hardware</Filter>
+    </ClInclude>
+    <ClInclude Include="Include/Sound/olcPGEX_Sound.h">
+      <Filter>Header Files\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Include/Engine/OlcPixelGameEngine.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src/Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src/Main1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src/Main2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src/Main3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src/Main4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src/Main5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Src/Hardware/Bus.cpp">
+      <Filter>Source Files\Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="Src/Hardware/Cartridge.cpp">
+      <Filter>Source Files\Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="Src/Mapper/Mapper.cpp">
+      <Filter>Source Files\Mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="Src/Mapper/Mapper_000.cpp">
+      <Filter>Source Files\Mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="Src/Mapper/Mapper_001.cpp">
+      <Filter>Source Files\Mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="Src/Mapper/Mapper_002.cpp">
+      <Filter>Source Files\Mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="Src/Mapper/Mapper_003.cpp">
+      <Filter>Source Files\Mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="Src/Mapper/Mapper_004.cpp">
+      <Filter>Source Files\Mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="Src/Mapper/Mapper_066.cpp">
+      <Filter>Source Files\Mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="Src/Hardware/Olc2A03.cpp">
+      <Filter>Source Files\Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="Src/Hardware/Olc2C02.cpp">
+      <Filter>Source Files\Hardware</Filter>
+    </ClCompile>
+    <ClCompile Include="Src/Hardware/Olc6502.cpp">
+      <Filter>Source Files\Hardware</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
